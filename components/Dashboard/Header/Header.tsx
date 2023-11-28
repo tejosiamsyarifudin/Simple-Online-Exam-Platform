@@ -7,7 +7,7 @@ import classes from './Header.module.css';
 export function Header() {
     const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
     return (
-        <Box pb={120}>
+        <Box>
             <header className={classes.header} data-testid="header">
                 <Group justify="space-between" h="100%">
                     PORTAL

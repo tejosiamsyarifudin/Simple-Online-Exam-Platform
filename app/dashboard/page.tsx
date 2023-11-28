@@ -1,4 +1,5 @@
 import { Header } from '@/components/Dashboard/Header/Header';
+import { Sidebar } from '@/components/Dashboard/Sidebar/Sidebar';
 // a.Design a dashboard with a sidebar containing a "Dashboard" menu. (progress)
 // b.Include a header with a logout option on the right side. (progress)
 // c.In the content section, display a list of exam tests(dummy data is acceptable).
@@ -6,6 +7,6 @@ import { Header } from '@/components/Dashboard/Header/Header';
 
 export default function DashboardPage() {
     return (
-        <Header />
+        <><Header /><Sidebar /></>
     );
 }
