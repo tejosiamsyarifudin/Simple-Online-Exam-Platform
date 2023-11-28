@@ -1,12 +1,13 @@
 import { Box, Container } from "@mantine/core"
 
-export default function LoginLayout({
+export default function DashboardLayout({
     children, // will be a page or nested layout
 }: {
     children: React.ReactNode
 }) {
+
     return (
-        <Container size="responsive" fluid bg="var(--mantine-color-blue-light)">
+        <Container size="responsive" p={20} fluid bg="var(--mantine-color-blue-light)">
             <Box style={{
                 margin: 'auto',
             }}>
